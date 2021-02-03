@@ -15,6 +15,7 @@ Note : Semoga Bisa Menjadi Amal Jariyah Bagi Yg Membagikannya, Barakallah :)
 | Description | Endpoint | 
 |------------ | ---------|
 | Example | https://ceramah-api-zhirrr.vercel.app/api/ustadz/search?q= |
+| Example | https://ceramah-api-zhirrr.vercel.app/api/syekh/search?q= |
 
 
 # Daftar Ustadz
@@ -24,6 +25,11 @@ Note : Semoga Bisa Menjadi Amal Jariyah Bagi Yg Membagikannya, Barakallah :)
 | Ustadz Khalid Basalamah | ✔️|
 | Ustadz Adi Hidayat | ✔️|
 | Ustadz Felix Siauw | ✔️|
+
+# Daftar Syekh
+| List Syekh | Check | 
+|------------ | ---------|
+| Syekh Ali Jaber | ✔️|
 
 
 # Installation
