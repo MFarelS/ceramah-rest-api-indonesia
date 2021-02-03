@@ -4,7 +4,9 @@
  */
 
  const searchCeramah = require('./searchCeramah.js')
+ const searchSyekh = require('./searchSyekh.js')
 
  module.exports = {
      searchCeramah
+     searchSyekh
  }
