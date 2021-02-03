@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Ceramah Ustadz Rest API Official</h1>
 
-<p>Pengen Tau Pesan Pesan Apa Saja Yang Disampaikan Para Ulama/Ustadz? Coba Deh Pake API Ini >_< </p>
+<p>Pengen Tau Pesan Pesan Apa Saja Yang Disampaikan Para Ulama/Ustadz? Coba Deh Pake API Ini  >_< </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 </div>
