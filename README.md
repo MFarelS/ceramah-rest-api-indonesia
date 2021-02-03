@@ -1,20 +1,27 @@
 <div align="center">
-<h1>Kisah Nabi Rest API Official</h1>
+<h1>Ceramah Ustadz Rest API Official</h1>
 
-<p>Pengen Tau Kisah Kisah Nabi? Coba Pake Ini Aja Ya Bossqu</p>
+<p>Pengen Tau Pesan Pesan Apa Saja Yang Disampaikan Para Ulama/Ustadz? Coba Deh Pake API Ini >_< </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 </div>
 
 # Description
-Kisah Nabi API adalah sebuah API yg berguna untuk menampilkan Kisah dan Data Lain Dari Nabi Allah SWT
+Ceramah API adalah sebuah API yg berguna untuk menampilkan Ceramah Ceramah Ustadz/Ulama Di Indonesia
 
 Note : Semoga Bisa Menjadi Amal Jariyah Bagi Yg Membagikannya, Barakallah :)
 
 
 | Description | Endpoint | 
 |------------ | ---------|
-| Example | https://kisahnabi-api-zhirrr.vercel.app/api/searchnabi?q=adam |
+| Example | https://ceramah-api-zhirrr.vercel.app/api/ceramah/search?q=abdul somad |
+
+
+# Daftar Ustadz
+| List Ustadz | Check | 
+|------------ | ---------|
+| Ustadz Abdul Somad | ✅ |
+| Ustadz Khalid Basalamah | ✅ |
 
 
 # Installation
