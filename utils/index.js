@@ -6,5 +6,5 @@
  const searchNabi = require('./searchNabi.js')
 
  module.exports = {
-     searchNabi
+     searchCeramah
  }
