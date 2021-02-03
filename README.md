@@ -20,10 +20,10 @@ Note : Semoga Bisa Menjadi Amal Jariyah Bagi Yg Membagikannya, Barakallah :)
 # Daftar Ustadz
 | List Ustadz | Check | 
 |------------ | ---------|
-| Ustadz Abdul Somad | ✅|
-| Ustadz Khalid Basalamah | ✅|
-| Ustadz Adi Hidayat | ✅|
-| Ustadz Felix Siauw | ✅|
+| Ustadz Abdul Somad | ✔️|
+| Ustadz Khalid Basalamah | ✔️|
+| Ustadz Adi Hidayat | ✔️|
+| Ustadz Felix Siauw | ✔️|
 
 
 # Installation
