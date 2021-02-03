@@ -14,14 +14,14 @@ Note : Semoga Bisa Menjadi Amal Jariyah Bagi Yg Membagikannya, Barakallah :)
 
 | Description | Endpoint | 
 |------------ | ---------|
-| Example | https://ceramah-api-zhirrr.vercel.app/api/ceramah/search?q=abdul somad |
+| Example | https://ceramah-api-zhirrr.vercel.app/api/ceramah/search?q= |
 
 
 # Daftar Ustadz
 | List Ustadz | Check | 
 |------------ | ---------|
-| Ustadz Abdul Somad | ✅ |
-| Ustadz Khalid Basalamah | ✅ |
+| Ustadz Abdul Somad | ✅|
+| Ustadz Khalid Basalamah | ✅|
 
 
 # Installation
