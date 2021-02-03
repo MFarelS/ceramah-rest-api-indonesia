@@ -14,7 +14,7 @@ Note : Semoga Bisa Menjadi Amal Jariyah Bagi Yg Membagikannya, Barakallah :)
 
 | Description | Endpoint | 
 |------------ | ---------|
-| Example | https://ceramah-api-zhirrr.vercel.app/api/ceramah/search?q= |
+| Example | https://ceramah-api-zhirrr.vercel.app/api/search?q= |
 
 
 # Daftar Ustadz
