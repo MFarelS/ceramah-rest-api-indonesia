@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/api/search", (req, res) => {
+app.get("/api/ustadz/search", (req, res) => {
     const ustad = req.query.q
     res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
     setImmediate(() => {
