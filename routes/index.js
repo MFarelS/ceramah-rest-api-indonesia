@@ -5,7 +5,7 @@ const cors = require("cors");
 const http = require("http");
 const https = require("https");
 const path = require("path")
-const KisahNabi = require('../utils')
+const Ceramah = require('../utils')
 
 http.globalAgent.maxSockets = Infinity;
 https.globalAgent.maxSockets = Infinity;
@@ -23,12 +23,12 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/api/searchnabi", (req, res) => {
-    const nabi = req.query.q
+app.get("/api/ceramah/search", (req, res) => {
+    const ustad = req.query.q
     res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
     setImmediate(() => {
       try {
-        if(nabi == '' || nabi == null){
+        if(ustad == '' || ustad == null){
           res.status(400).send({
             code: res.statusCode,
             success: false,
@@ -36,7 +36,7 @@ app.get("/api/searchnabi", (req, res) => {
             creator: "Zhirrr"
           });
         }else{
-          KisahNabi.searchNabi(nabi)
+          Ceramah.searchCeramah(ustad)
             .then((data) => {
               res.json(data);
             })
