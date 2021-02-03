@@ -22,6 +22,7 @@ Note : Semoga Bisa Menjadi Amal Jariyah Bagi Yg Membagikannya, Barakallah :)
 |------------ | ---------|
 | Ustadz Abdul Somad | ✅|
 | Ustadz Khalid Basalamah | ✅|
+| Ustadz Adi Hidayat | ✅|
 
 
 # Installation
