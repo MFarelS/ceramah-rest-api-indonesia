@@ -3,7 +3,7 @@
  * @license MIT
  */
 
- const searchNabi = require('./searchNabi.js')
+ const searchCeramah = require('./searchCeramah.js')
 
  module.exports = {
      searchCeramah
