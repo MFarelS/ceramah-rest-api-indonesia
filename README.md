@@ -14,7 +14,7 @@ Note : Semoga Bisa Menjadi Amal Jariyah Bagi Yg Membagikannya, Barakallah :)
 
 | Description | Endpoint | 
 |------------ | ---------|
-| Example | https://ceramah-api-zhirrr.vercel.app/api/ustadz/search?q={nama ustad huruf kecil} |
+| Example | https://ceramah-api-zhirrr.vercel.app/api/ustadz/search?q= |
 
 
 # Daftar Ustadz
