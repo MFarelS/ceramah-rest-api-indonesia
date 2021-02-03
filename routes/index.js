@@ -48,6 +48,31 @@ app.get("/api/ustadz/search", (req, res) => {
     });
 });
 
+app.get("/api/syekh/search", (req, res) => {
+    const syekh = req.query.q
+    res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
+    setImmediate(() => {
+      try {
+        if(syekh == '' || syekh == null){
+          res.status(400).send({
+            code: res.statusCode,
+            success: false,
+            message: "Query Gak Boleh Kosong!",
+            creator: "Zhirrr"
+          });
+        }else{
+          Ceramah.searchSyekh(syekh)
+            .then((data) => {
+              res.json(data);
+            })
+            .catch((err) => console.log(err));
+        }
+      } catch (e) {
+        res.status(400).send("Server Bermasalah Gan");
+      }
+    });
+});
+
 app.use(express.urlencoded({ extended: false }));
 app.listen(port, () => {
   console.log(`Server listen on port ${port}`);
