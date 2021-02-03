@@ -29,7 +29,7 @@ Jika Anda ingin menambahkan proyek ini di komputer Anda sendiri, Anda dapat meng
 
 1. Clone this repository
 ```
-git clone https://github.com/Zhirrr/kisahnabi-rest-api-indonesia.git
+git clone https://github.com/Zhirrr/ceramah-rest-api-indonesia.git
 ```
 2. Install dependencies
 
