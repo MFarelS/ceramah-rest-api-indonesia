@@ -5,9 +5,9 @@
 
 const axios = require('axios');
 
-const searchNabi = (nabi) => {
+const searchCeramah = (ustad) => {
    return new Promise( async (resolve, reject) => {
-       await axios.get(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/kisahnabi/${nabi}.json`)
+       await axios.get(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/ceramah/${ustad}.json`)
            .then(response => {
                if(response.status == 200){
                    const results = response.data
@@ -15,13 +15,9 @@ const searchNabi = (nabi) => {
                    data = {}
                    data.code = response.status
                    data.message = "ok"
-                   data.nabi = {
+                   data.ustad = {
                        nama: results.name,
-                       lahir: results.thn_kelahiran,
-                       umur: results.usia,
-                       tempat: results.tmp,
-                       image: results.image_url,
-                       kisah: results.description
+                       ceramah: results.ceramah
                    }
 
                    data.creator = "Zhirrr"
@@ -41,4 +37,4 @@ const searchNabi = (nabi) => {
    })
 }
 
-module.exports = searchNabi
+module.exports = searchCeramah
