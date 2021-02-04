@@ -7,6 +7,6 @@
  const searchSyekh = require('./searchSyekh.js')
 
  module.exports = {
-     searchCeramah
+     searchCeramah,
      searchSyekh
  }
