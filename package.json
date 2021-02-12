@@ -1,9 +1,9 @@
 {
-  "name": "github-wrapper",
+  "name": "ceramah-api",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "author": "Satya wikananda <satywikananda456@gmail.com>",
+  "author": "Zahir Athallah <zhirrrstudio@gmail.com>",
   "scripts": {
     "start": "nodemon ./routes/index.js"
   },
